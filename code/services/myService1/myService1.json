@@ -1,0 +1,13 @@
+{
+    "auto_balance": false,
+    "auto_restart": false,
+    "concurrency": 0,
+    "dependencies": "log,clearblade,jsutil",
+    "execution_timeout": 60,
+    "logging_enabled": true,
+    "name": "myService1",
+    "params": [
+        "{\n  \"body\": \"[{\\\"batch\\\": 2, \\\"memory_percent\\\": 0.01, \\\"name\\\": \\\"System Idle Process\\\", \\\"pid\\\": 0}, {\\\"batch\\\": 1, \\\"memory_percent\\\": 0.02, \\\"name\\\": \\\"System\\\", \\\"pid\\\": 4}]\",\n  \"userId\": \"bab7f8e40be28bf7a28399b0e0a301\",\n  \"trigger\": \"Messaging::Publish\",\n  \"topic\": \"myCPUInfo\"\n}"
+    ],
+    "run_user": ""
+}
