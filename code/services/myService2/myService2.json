@@ -1,0 +1,11 @@
+{
+    "auto_balance": false,
+    "auto_restart": false,
+    "concurrency": 1,
+    "dependencies": "log,clearblade,jsutil",
+    "execution_timeout": -1,
+    "logging_enabled": true,
+    "name": "myService2",
+    "params": [],
+    "run_user": ""
+}
