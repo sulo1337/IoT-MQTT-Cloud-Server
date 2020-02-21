@@ -1,0 +1,19 @@
+{
+    "columns": [
+        {
+            "ColumnName": "cb_service_account",
+            "ColumnType": "bool",
+            "PK": false
+        },
+        {
+            "ColumnName": "cb_token",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "cb_ttl_override",
+            "ColumnType": "int",
+            "PK": false
+        }
+    ]
+}
