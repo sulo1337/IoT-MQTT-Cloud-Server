@@ -1,0 +1,36 @@
+{
+    "items": [],
+    "name": "myPcLogs",
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "batch",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "memory_percent",
+            "ColumnType": "float",
+            "PK": false
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "pid",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "timestamp",
+            "ColumnType": "int",
+            "PK": false
+        }
+    ]
+}
