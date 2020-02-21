@@ -7,9 +7,16 @@ Uses code services hosted on ClearBlade IoT Platform.
 
 ## Code Services
 
-1. myService1: receives a batch of CPU Process Information (memory usage and timestamp). This service is triggered by a MQTT publish to a topic to the server. The service processes the MQTT message and adds each CPU Process from the batch to a row in the Collection. The service then signals a analytics code service to start analyzing by publishing message to a shared topic.
+1. myService1: receives a batch of CPU Process Information (memory usage and timestamp). 
+      This service is triggered by a MQTT publish to a topic to the server. 
+      The service processes the MQTT message and adds each CPU Process from the batch to a row in the Collection. 
+      The service then signals a analytics code service to start analyzing by publishing message to a shared topic.
 
-2. myService2: after receiving signal from myService1, this service queries the collection by batch number. Retrieves a batch of CPU Process Information, and publishes analytics. Analytics contain 5 processes that has the most memory usage in a given batch of processes. This service then publishes to 'analytics' topic. Process Information it publishes are PID, Process Name, Timestamp and Memory Usage. 
+2. myService2: after receiving signal from myService1, this service queries the collection by batch number. 
+      Retrieves a batch of CPU Process Information, and publishes analytics. 
+      Analytics contain 5 processes that has the most memory usage in a given batch of processes. 
+      This service then publishes to 'analytics' topic. 
+      Process Information it publishes are PID, Process Name, Timestamp and Memory Usage. 
 
 ## Setup
 A client can connect to this server using an API with a key.
