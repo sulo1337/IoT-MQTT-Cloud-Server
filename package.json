@@ -1,0 +1,34 @@
+{
+    "asset_types": [
+        "Code Services",
+        "Collections",
+        "Devices",
+        "Edges",
+        "Roles",
+        "Timers",
+        "Triggers",
+        "Users",
+        "Code Libraries"
+    ],
+    "author": {
+        "email": "s.acharya1337@gmail.com"
+    },
+    "clouds": [],
+    "description": "",
+    "domains": [],
+    "exportRows": false,
+    "gateways": [],
+    "image_url": "https://docs.clearblade.com/v/4/static/img/default_package.png",
+    "keywords": [
+        "clearblade",
+        "iot",
+        "platform"
+    ],
+    "license": "MIT",
+    "name": "IoT-MQTT-Cloud-Server",
+    "private": false,
+    "prog_lang": [],
+    "protocols": [],
+    "things": [],
+    "version": "1.0.0"
+}
