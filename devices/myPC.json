@@ -1,0 +1,13 @@
+{
+    "allow_certificate_auth": false,
+    "allow_key_auth": true,
+    "cb_service_account": false,
+    "cb_token": "",
+    "cb_ttl_override": 0,
+    "certificate": "",
+    "description": "",
+    "enabled": true,
+    "name": "myPC",
+    "state": "ON",
+    "type": ""
+}
