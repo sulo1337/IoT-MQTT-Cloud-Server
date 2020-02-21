@@ -1,0 +1,8 @@
+{
+    "description": "",
+    "frequency": 30000,
+    "name": "runAnalyticsEvery30Sec",
+    "repeats": -1,
+    "service_name": "loop",
+    "start_time": "2020-02-21T08:26:20Z"
+}
