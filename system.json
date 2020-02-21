@@ -1,0 +1,9 @@
+{
+    "auth": true,
+    "description": "",
+    "messaging_url": "platform.clearblade.com:1883",
+    "name": "IoT-MQTT-Cloud-Server",
+    "platform_url": "https://platform.clearblade.com",
+    "system_key": "e0b3f8e40ba4879dc5c7e2e7ce1b",
+    "system_secret": ""
+}
